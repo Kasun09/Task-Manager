@@ -244,7 +244,7 @@ export default function Dashboard() {
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-               run de     className="bg-white/40 dark:bg-slate-900/60 backdrop-blur-3xl p-8 rounded-[3.5rem] shadow-2xl border border-white/20 custom-calendar"
+                    run de className="bg-white/40 dark:bg-slate-900/60 backdrop-blur-3xl p-8 rounded-[3.5rem] shadow-2xl border border-white/20 custom-calendar"
                 >
                     <Calendar
                         onChange={setSelectedDate}
